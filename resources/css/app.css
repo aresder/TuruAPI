@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .btn-login {
+        @apply bg-primary py-2 text-white font-semibold rounded-md hover:bg-hover;
+    }
+}
